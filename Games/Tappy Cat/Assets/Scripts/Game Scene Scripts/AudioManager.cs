@@ -41,6 +41,13 @@ public class AudioManager : MonoBehaviour
     /// </summary>
     public void UpdateButtonText()
     {
-        muteButton.GetComponentInChildren<Text>().text = isMuted ? "Unmute" : "Mute";
+        if (isMuted)
+        {
+            muteButton.GetComponentInChildren<Text>().text = "Unmute";
+        }
+        else
+        {
+            muteButton.GetComponentInChildren<Text>().text = "Mute";
+        }
     }
 }

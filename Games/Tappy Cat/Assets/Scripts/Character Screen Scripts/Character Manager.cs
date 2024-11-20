@@ -18,7 +18,7 @@ public class CharacterManager : MonoBehaviour
     /// </summary>
     void Start()
     {
-        if(!PlayerPrefs.HasKey("selectedOption"))
+        if (!PlayerPrefs.HasKey("selectedOption"))
         {
             selectedOption = 0;
         }
@@ -86,9 +86,11 @@ public class CharacterManager : MonoBehaviour
     /// Changes scene from title scene to game scene
     /// </summary>
     /// <param name="sceneID">the ID in which the scene is changed to</param>
-    public void ChangeScene(int sceneID)
+    public void ChangeScene()
     {
-        SceneManager.LoadScene(sceneID);
+
+        SceneManager.LoadScene("Game Scene");
+
     }
 
 }
