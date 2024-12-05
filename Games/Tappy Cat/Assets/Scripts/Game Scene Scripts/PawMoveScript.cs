@@ -7,7 +7,7 @@ public class PawMoveScript : MonoBehaviour
 {
     //declare variables
     public float moveSpeed = 5;
-    public float deadZone = -3;
+    public float deadZone = -7;
 
 
     /// <summary>

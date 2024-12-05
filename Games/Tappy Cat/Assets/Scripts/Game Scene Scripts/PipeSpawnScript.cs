@@ -11,7 +11,7 @@ public class PipeSpawnScript : MonoBehaviour
     public GameObject paw;
     public float spawnRate = 2;
     private float timer = 0;
-    public float heightOffset = 10;
+    public float heightOffset = 15;
 
     /// <summary>
     /// Spawns Paw initially to quicken speed of waiting for first paw
