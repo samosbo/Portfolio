@@ -6,7 +6,7 @@ using UnityEngine;
 public class PawMoveScript : MonoBehaviour
 {
     //declare variables
-    public float moveSpeed = 5;
+    public float moveSpeed = 10;
     public float deadZone = -7;
 
 
