@@ -1,3 +1,9 @@
+/*==== Background ====*/
+body
+{
+    background-image: url("Media/Portfolio_Background.png");
+    background-repeat: repeat;
+}
 /*==== Header ====*/
 
 /*==== Nav ====*/
