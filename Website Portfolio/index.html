@@ -9,11 +9,15 @@
 <body>
     <header>
         <h1>Samantha Osborne's Portfolio</h1>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="projects.html">Projects</a> |
-            <a href="resume.html">Resume</a> |
-            <a href="#contact">Contact Me!</a> |
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="#contact">Contact Me!</a>
         </nav>
     </header>
     <div class="banner">
@@ -21,11 +25,17 @@
         <h2>A C# and C++ developer passionate about building engaging and impactful interactive experiences </h2>
     </div>
     <main>
+        <img src="Media/PhotoOfMe.JPEG" alt="Samantha Osborne facing the camera with a black shirt on and a middle wolfcut hair style"> 
         <div class="aboutMe">
-           <img src="" alt="Samantha Osborne facing the camera with a black shirt on and a middle wolfcut hair style"> 
-
+           <h2>About Me!</h2>
+           <p>I’m a graduating computing student in game design and development, focusing on expanding my skills in software around C# and C++. I have a passion for creating thought-provoking games or engaging applications that give back to the communities that helped me as I grew up.</p>
+           <p>Professional Skills: </p>
+           <p>Languages: C# | C/C++| Python | SQL | JavaScript | HTML | CSS</p>
+           <p>Tools & Frameworks: Unity | Git/GitHub | Visual Studio | Trello | Google Sheets</p>
+           <p>Concepts: Object-Oriented Programming | Data Structures & Algorithms | Software Architecture | Debugging | Agile/Scrum | Version Control | Project Management | User Experience (UX) Design</p>
+           <p>I enjoy learning new skills by tackling challenges and through hands-on experiences.</p>
+           <p>If you aren’t seeing me work on one of the above projects or gaining new skills. I’m regularly casting Valorant tournaments, producing live streams as a part of my club, jamming out to music, or cooking incredible (I like to think) food!</p>
         </div>
-        
     </main>
     <footer id="contact">
         <h1>Contact Me!</h1>
@@ -35,4 +45,12 @@
         </ul>
     </footer>
 </body>
+<script>
+    let hamburger = document.querySelector(".hamburger");
+    let navLinks = document.querySelector("nav");
+
+    hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+</script>
 </html>

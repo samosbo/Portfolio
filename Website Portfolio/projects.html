@@ -9,11 +9,15 @@
 <body>
     <header>
         <h1>Samantha Osborne's Portfolio</h1>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="projects.html">Projects</a> |
-            <a href="resume.html">Resume</a> |
-            <a href="#contact">Contact Me!</a> |
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="#contact">Contact Me!</a>
         </nav>
     </header>
     <div class="banner">
@@ -64,7 +68,7 @@
             </div>
         </div>
     </main>
-    <footer>
+    <footer id="contact">
         <h1>Contact Me!</h1>
         <ul>
             <li><a href="https://www.linkedin.com/in/samantha-osborne-game-dev/">My LinkedIn</a></li>
@@ -72,4 +76,12 @@
         </ul>
     </footer>
 </body>
+<script>
+    let hamburger = document.querySelector(".hamburger");
+    let navLinks = document.querySelector("nav");
+
+    hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+</script>
 </html>
