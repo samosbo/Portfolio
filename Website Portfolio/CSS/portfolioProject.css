@@ -87,7 +87,45 @@ header nav
 
 .project video
 {
-    margin: 10px auto;
+    margin: 5px auto;
+    border-radius:30px;
+}
+
+.project p
+{
+    padding: 0 10px;
+    margin: 5px 0 0 0;
+}
+
+.project a
+{
+    text-align:center;
+}
+
+
+.project a:link
+{
+    color:#326280;
+}
+
+.project a:visited
+{
+    color:#326280;
+}
+
+.project a:hover
+{
+    color:#9AC9DA;
+}
+
+.project a:focus
+{
+    color:#9AC9DA;
+}
+
+.project a:active
+{
+    color:#b7ebeb;
 }
 
 
@@ -136,4 +174,32 @@ a:focus
 a:active
 {
     color:#b7ebeb;
+}
+
+/*==== Responsive ====*/
+
+@media screen and (max-width:780px)
+{
+    .projects
+    {
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .project
+    {
+        width:400px;
+        height: 400px;
+    }
+
+    .project video
+    {
+        width: 340px;
+        height: 180px;
+    }
+
+    .project p
+    {
+        font-size: 13px;
+    }
 }
