@@ -14,7 +14,7 @@ body
 /*==== SIDEBAR ====*/
 .sidebar{
     position:fixed;
-    width:13%;
+    width:400px;
     height:100dvh;
     grid-area: sidebar;
     display:flex;
@@ -35,8 +35,8 @@ header
 }
 
 header img{
-    width:270px;
-    height:310px;
+    width:180px;
+    height:210px;
     border-radius:150%;
     outline-width:3px;
     outline-style:solid;
