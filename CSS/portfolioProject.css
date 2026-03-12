@@ -2,7 +2,7 @@
 body
 {
     background-color: #326280;
-    display: flex;
+    display: block;
     flex-direction: column;
     margin:0;
 }
@@ -174,7 +174,7 @@ nav
 {
     margin: 5px auto;
     border-radius:20px;
-    width:700px;
+    width: 95%;
     height:400px;
 }
 
