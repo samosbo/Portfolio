@@ -123,7 +123,7 @@ nav .contact{
 }
 
 .content h1{
-    width:60%;
+    width:67%;
     background-color:#62a1c9;
     font-size:40px;
     margin:auto;
@@ -132,11 +132,12 @@ nav .contact{
 }
 
 .about{
-    width:60%;
+    width:65%;
     background-color:#4983A8;
     font-size:25px;
     border-radius:5px;
     margin:20px;
+    padding:20px;
 }
 
 .content img
