@@ -15,7 +15,7 @@ body
 .sidebar{
     position:fixed;
     width:400px;
-    height:100vh;
+     height:100dvh;
     grid-area: sidebar;
     display:flex;
     flex-direction:column;
@@ -127,8 +127,8 @@ nav
 {
     border-radius:10px;
     margin: 20px;
-    width:1500px;
-    height:900px;
+    width:95%;
+    height:70%;
     margin:20px auto;
 }
 
