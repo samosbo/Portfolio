@@ -127,58 +127,6 @@ nav
     font-weight:bold;
 }
 
-/*==== Current Project ====*/
-.cur-proj img{
-    border-radius: 30px;
-    margin: 20px;
-    width:80%;
-    height:70%;
-    outline-width:15px;
-    outline-style: solid;
-    outline-color:rgb(36, 36, 36);
-}
-
-.cur-proj{
-    text-align:left;
-    justify-content:center;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    font-size:20px;
-    width:90%;
-    background-color:#4983A8;
-    border-radius:30px;
-    margin:auto;
-}
-
-.cur-proj h3{
-    font-size:40px;
-}
-.cur-proj p{
-    text-align:left;
-    font-size:30px;
-}
-.see-more{
-    background-color:#326280;
-    margin:10px,auto;
-}
-
-/*==== About Me ====*/
-.learning{
-    margin:auto;
-    width:92%;
-    align-items:center;
-}
-
-.learning-text
-{
-    background-color:#4983A8;
-    border-radius: 30px;
-    padding:10px;
-    margin: 20px;
-    font-size:30px;
-}
-
 /*==== Footer ====*/
 
 footer
@@ -221,8 +169,34 @@ a:active
 }
 
 /*==== Responsive ====*/
-@media screen and (max-width: 768px)
+
+@media screen and (max-width:780px)
 {
+    /*==== Projects ====*/
+    .projects
+    {
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .project
+    {
+        width:400px;
+        height: 400px;
+    }
+
+    .project video
+    {
+        width: 340px;
+        height: 180px;
+    }
+
+    .project p
+    {
+        font-size: 13px;
+    }
+
+    /*==== Hamburger and Nav ====*/
     .hamburger
     {
         display:flex;
@@ -254,10 +228,5 @@ a:active
     header nav a:not(:last-child)::after
     {
         content: "";
-    }
-
-    main
-    {
-        flex-direction:column;
     }
 }

@@ -1,100 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samantha Osborne Portfolio</title>
     <link rel="stylesheet" href="CSS/portfolioProject.css">
 </head>
+
 <body>
-    <header>
-        <h1>Samantha Osborne's Portfolio</h1>
+    <div class="sidebar">
+        <header>
+            <img src="Media/PhotoOfMe.JPEG"
+                alt="Samantha Osborne facing the camera with a black shirt on and a middle wolfcut hair style">
+        </header>
+        <div class="banner">
+            <h1>Hi there!</h1>
+            <h1>I'm Samantha Osborne</h1>
+            <h2>A developer passionate about building engaging and impactful interactive experiences for the next
+                players
+                and users.</h2>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="blog.html">Blogs</a>
+            <a href="resume.html">Resume</a>
+            <a href="about-me.html">About Me</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <div class="hamburger">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="#contact">Contact Me!</a>
-        </nav>
-    </header>
-    <div class="banner">
-        <h1>Projects</h1>
-        <h2>These are my most recent projects!</h2>
     </div>
-    <main>
+    <div class="content">
+        <div class="content-top">
+            <h3>Projects</h3>
+            <hr id="custom-hr">
+        </div>
         <div class="projects">
             <div class="project">
-                <h2>Boo! (Personal)</h2>
-                <h3>Game Producer and Game Designer</h3>
-                <video width="480" height="270" controls>
-                    <source src="Media/Boo! Demo.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                 <p>
-                    This project was for Scream Jam 2025, a week long game jam with no specific theme.
-                    I loved getting to be able to produce this game and work with my teammates to create a product we were all super proud of which utilized C#, Unity, Git, and HTML.
-                    I also got to learn how to use microphone input for web builds through this project and loved getting to gain that experience!
-                </p>
-                <a href="https://evan-hughes.itch.io/boo">Play Boo! on Itch.io</a>
+                <button onclick="location.href='project-pages/critters-cauldron.html'">
+                <img src="media/CrittersCauldron.jpg" alt="A smiley character standing in a potion shop with counters surronding them and a cauldron in the middle.">
+                <div class="tags">
+                    <div class="tag">
+                        <p>Academic</p>
+                    </div>
+                    <div class="tag">
+                        <p>Unity</p>
+                    </div>
+                    <div class="tag">
+                        <p>Project Management</p>
+                    </div>
+                </div>
+                <h2>Critter's Cauldron</h2>
+                </button>
             </div>
             <div class="project">
-                <h2>Seafarer's Legacy (Personal & Full-Time)</h2>
-                <h3>Game Designer and Gameplay Programmer</h3>
-                <video width="480" height="270" controls>
-                    <source src="Media/Seafarer's Legacy Demo - shorten.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p>
-                    In this project, I utilized Unity, C#, and Git to create a vertical slice demo of our pre-production prototype.
-                    It was through this project I learned how to use Scrum Project Management and the importance of game design decisions being based in research.
-                    I loved every second of this project and intend to continute working on it in free time!
-                </p>
+                <button onclick="location.href='project-pages/portfolio.html'">
+                <img src="media/CrittersCauldron.jpg" alt="A website with a woman with brown hair in the upper right corner. A navigation list below and to the right current projects.">
+                <div class="tags">
+                    <div class="tag">
+                        <p>Personal</p>
+                    </div>
+                    <div class="tag">
+                        <p>Web</p>
+                    </div>
+                </div>
+                <h2>Portfolio Website</h2>
+                </button>
             </div>
             <div class="project">
-                <h2>Pizza is Ready! (Academic)</h2>
-                <h3>Gameplay Programmer</h3>
-                <video width="480" height="270" controls>
-                    <source src="Media/Pizza Is Ready Demo.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p>
-                    In this project, I worked with a team of 4 to build Pizza is Ready as the UI developer! A game application built on MonoGame and Visual Studio.
-                    We used free assets for the in game assets and it was the first game project on MonoGame I had ever built.
-                    We also used Trello to organize our project's game plan and ideas.
-                </p>
+                <button onclick="location.href='project-pages/boo.html'">
+                <img src="media/BooFront.png" alt="A black ghost swirls in the air above a table while three clueless children walk on screen.">
+                <div class="tags">
+                    <div class="tag">
+                        <p>Personal</p>
+                    </div>
+                    <div class="tag">
+                        <p>Unity</p>
+                    </div>
+                    <div class="tag">
+                        <p>Project Management</p>
+                    </div>
+                </div>
+                <h2>Boo!</h2>
+                </button>
             </div>
             <div class="project">
-                <h2>Dog Park (Academic)</h2>
-                <h3>Web Developer</h3>
-                <video width="480" height="270" controls>
-                    <source src="Media/dogpark.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p>
-                    In this project, I explored how to utilize JavaScript to fetch data from DogAPI. I also challenged myself to create a favoriting system and implement that into a dog park like simulation.
-                    I found this project super fun and I sharpened my skills in JavaScript, HTML, and CSS.
-                </p>
+                <button onclick="location.href='project-pages/seafarers-legacy.html'">
+                <img src="media/SeafarersFront.png" alt="A notebook opened detailing quest information with the backdrop of being on a boat.">
+                <div class="tags">
+                    <div class="tag">
+                        <p>Full-Time</p>
+                    </div>
+                    <div class="tag">
+                        <p>Unity</p>
+                    </div>
+                </div>
+                <h2>Seafarer's Legacy</h2>
+                </button>
+            </div>
+            <div class="project">
+                <button onclick="location.href='project-pages/pizza-is-ready.html'">
+                <img src="media/PizzaFront.png" alt="A piece of dough with tomato sauce on it with ingredients to the right">
+                <div class="tags">
+                    <div class="tag">
+                        <p>Academic</p>
+                    </div>
+                    <div class="tag">
+                        <p>MonoGame</p>
+                    </div>
+                    <div class="tag">
+                        <p>Project Management</p>
+                    </div>
+                </div>
+                <h2>Pizza is Ready!</h2>
+                </button>
+            </div>
+            <div class="project">
+                <button onclick="location.href='project-pages/dog-park.html'">
+                <img src="media/DogFront.png" alt="A green and yellow website with a handful of dog images in a dog park randomly placed.">
+                <div class="tags">
+                    <div class="tag">
+                        <p>Academic</p>
+                    </div>
+                    <div class="tag">
+                        <p>Web</p>
+                    </div>
+                    <div class="tag">
+                        <p>Dog API</p>
+                    </div>
+                </div>
+                <h2>Dog Park</h2>
+                </button>
             </div>
 
         </div>
-    </main>
-    <footer id="contact">
-        <h1>Contact Me!</h1>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/samantha-osborne-game-dev/">My LinkedIn</a></li>
-            <li><a href="https://github.com/samosbo">My Github</a></li>
-        </ul>
-    </footer>
+        <footer id="contact">
+            <hr id="custom-hr">
+            <p>Thanks for viewing! Have a great day! ☺</p>
+        </footer>
+    </div>
 </body>
 <script>
     let hamburger = document.querySelector(".hamburger");
     let navLinks = document.querySelector("nav");
 
     hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
+        navLinks.classList.toggle("active");
+    });
 </script>
+
 </html>
