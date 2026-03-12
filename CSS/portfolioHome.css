@@ -14,7 +14,7 @@ body
 /*==== SIDEBAR ====*/
 .sidebar{
     position:fixed;
-    width:400px;
+    width:13%;
     height:100dvh;
     grid-area: sidebar;
     display:flex;
@@ -31,7 +31,7 @@ header
     display:flex;
     flex-direction:column;
     background-color: #4983A8;
-    padding: 25px 25px 25px 50px;
+    padding: 10px 10px 20px 50px;
 }
 
 header img{
