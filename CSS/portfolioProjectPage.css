@@ -14,8 +14,8 @@ body
 /*==== SIDEBAR ====*/
 .sidebar{
     position:fixed;
-    width:400px;
-     height:100dvh;
+    width:13%;
+    height:100dvh;
     grid-area: sidebar;
     display:flex;
     flex-direction:column;
