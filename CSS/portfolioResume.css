@@ -57,6 +57,13 @@ nav
     flex-grow: 1;
 }
 
+nav .contact{
+    display:flex;
+    padding-top:10px;
+    flex-direction: column;
+    font-size:30px;
+}
+
 /*==== Hamburger ====*/
 .hamburger
 {
